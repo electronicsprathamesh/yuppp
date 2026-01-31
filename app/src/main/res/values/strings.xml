@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BLE Scan</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="start_scanning">Start Scanning</string>
+    <string name="scanning_active">Scanning for beacons...</string>
+    <string name="bluetooth_disabled">Bluetooth is disabled</string>
+    <string name="permissions_required">Permissions required</string>
+</resources>
