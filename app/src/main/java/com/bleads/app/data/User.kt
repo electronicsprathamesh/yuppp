@@ -1,4 +1,4 @@
-package com.ble.scan.data
+package com.bleads.app.data
 
 data class User(
     val name: String,

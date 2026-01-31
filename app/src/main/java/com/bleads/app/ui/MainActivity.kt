@@ -1,4 +1,4 @@
-package com.ble.scan.ui
+package com.bleads.app.ui
 
 import android.Manifest
 import android.bluetooth.BluetoothAdapter
@@ -10,9 +10,9 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.ble.scan.databinding.ActivityMainBinding
-import com.ble.scan.service.BLEScanningService
-import com.ble.scan.util.PreferencesHelper
+import com.bleads.app.databinding.ActivityMainBinding
+import com.bleads.app.service.BLEScanningService
+import com.bleads.app.util.PreferencesHelper
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         startBLEScanningService()
     }
 
-    private fun setupViews(user: com.ble.scan.data.User) {
+    private fun setupViews(user: com.bleads.app.data.User) {
         binding.tvUserName.text = "Welcome, ${user.name}"
         binding.tvUserPhone.text = user.phone
         binding.tvStatus.text = "Scanning for beacons..."

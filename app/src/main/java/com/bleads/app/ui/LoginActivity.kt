@@ -1,4 +1,4 @@
-package com.ble.scan.ui
+package com.bleads.app.ui
 
 import android.Manifest
 import android.bluetooth.BluetoothAdapter
@@ -11,9 +11,9 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.ble.scan.databinding.ActivityLoginBinding
-import com.ble.scan.service.BLEScanningService
-import com.ble.scan.util.PreferencesHelper
+import com.bleads.app.databinding.ActivityLoginBinding
+import com.bleads.app.service.BLEScanningService
+import com.bleads.app.util.PreferencesHelper
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
@@ -69,7 +69,7 @@ class LoginActivity : AppCompatActivity() {
             }
 
             // Save user locally
-            preferencesHelper.saveUser(com.ble.scan.data.User(name, phone))
+            preferencesHelper.saveUser(com.bleads.app.data.User(name, phone))
             
             // Check permissions and start service
             checkBluetoothAndPermissions()

@@ -1,11 +1,11 @@
-package com.ble.scan.receiver
+package com.bleads.app.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.os.Build
-import com.ble.scan.service.BLEScanningService
-import com.ble.scan.util.PreferencesHelper
+import com.bleads.app.service.BLEScanningService
+import com.bleads.app.util.PreferencesHelper
 
 class BootReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

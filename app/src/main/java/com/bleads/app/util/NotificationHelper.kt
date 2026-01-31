@@ -1,4 +1,4 @@
-package com.ble.scan.util
+package com.bleads.app.util
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -8,9 +8,9 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import androidx.core.app.NotificationCompat
-import com.ble.scan.R
-import com.ble.scan.data.Campaign
-import com.ble.scan.ui.MainActivity
+import com.bleads.app.R
+import com.bleads.app.data.Campaign
+import com.bleads.app.ui.MainActivity
 
 class NotificationHelper(private val context: Context) {
     private val notificationManager =

@@ -1,4 +1,4 @@
-package com.ble.scan.service
+package com.bleads.app.service
 
 import android.Manifest
 import android.app.Notification
@@ -20,11 +20,11 @@ import android.util.Log
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.LifecycleService
 import androidx.lifecycle.lifecycleScope
-import com.ble.scan.data.Campaign
-import com.ble.scan.data.User
-import com.ble.scan.util.FirebaseHelper
-import com.ble.scan.util.NotificationHelper
-import com.ble.scan.util.PreferencesHelper
+import com.bleads.app.data.Campaign
+import com.bleads.app.data.User
+import com.bleads.app.util.FirebaseHelper
+import com.bleads.app.util.NotificationHelper
+import com.bleads.app.util.PreferencesHelper
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.util.UUID

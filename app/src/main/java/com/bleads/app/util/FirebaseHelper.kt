@@ -1,8 +1,8 @@
-package com.ble.scan.util
+package com.bleads.app.util
 
 import android.util.Log
-import com.ble.scan.data.Campaign
-import com.ble.scan.data.User
+import com.bleads.app.data.Campaign
+import com.bleads.app.data.User
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
 import kotlinx.coroutines.tasks.await

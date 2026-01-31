@@ -1,8 +1,8 @@
-package com.ble.scan.util
+package com.bleads.app.util
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.ble.scan.data.User
+import com.bleads.app.data.User
 
 class PreferencesHelper(context: Context) {
     private val prefs: SharedPreferences = context.getSharedPreferences(
